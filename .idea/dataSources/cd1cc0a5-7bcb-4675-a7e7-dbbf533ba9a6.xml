@@ -478,7 +478,11 @@ model</ColNames>
       <Position>4</Position>
       <DataType>varchar(100)|0s</DataType>
     </column>
-    <key id="113" parent="18">
+    <column id="113" parent="18" name="randomUrl">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="114" parent="18">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
